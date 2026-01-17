@@ -227,6 +227,11 @@ main > section{
         flex-direction: column;
     }
 
+    .features{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .team-img-container, .facts-container, .sponsor-companies{
         grid-template-columns: repeat(1, 1fr);
     }
